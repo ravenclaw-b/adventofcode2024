@@ -1,7 +1,4 @@
 
-# NOTE: doesn't fully work, had to manual change the output a bit for it to be the correct answer
-
-
 def parse_input(input_data):
     wires = {}
     gates = []
@@ -66,7 +63,7 @@ while check and count<44:
             if a in set(item):
                 swaplist.append(t1)
                 t2 = list(item-set([a]))[0]
-                pXOR[item] = t2
+                # pXOR[item] = t2
                 swaplist.append(t2)
                 
         tcheck = True
